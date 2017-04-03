@@ -19,6 +19,6 @@ You can import the module and get a sensor reading like this:
 
 or you can run it directly from the command line like this:
 
-    sudo python ADXL345.py
+    sudo python adxl345.py
     
 which will output the current x, y, and z axis readings in Gs.
