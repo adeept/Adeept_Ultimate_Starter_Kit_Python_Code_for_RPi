@@ -94,6 +94,7 @@ def display_3(num):
 
 def setup():  
 	GPIO.setmode(GPIO.BOARD)    #Number GPIOs by its physical location  
+	GPIO.setwarnings(False)
 	for pin in pins:  
 		GPIO.setup(pin, GPIO.OUT)    #set all pins' mode is output  
 		GPIO.output(pin, GPIO.HIGH)  #set all pins are high level(3.3V)  
